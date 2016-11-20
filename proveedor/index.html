@@ -3,7 +3,7 @@
 <html>
   <head>
      <meta charset="utf-8">
-     <title>CO-NNET - Login</title>
+     <title>CO-NNET - Proveedor</title>
      <meta name="description" content="Tú lo necesitas, nosotros lo solucionamos" >
      <meta name="keywords" content="lavadora, servicio, empresas, reaparación">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,25 +29,25 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                      <a href="../"  >  <img src="../assets/img/logo-connet.png" class="img-responsive" style="width:78px;"></a>
+                      <a href="../"  > <img src="../assets/img/logo-connet.png" class="img-responsive" style="width:78px;"></a>
 
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                       <ul class="nav navbar-nav navbar-right menu" style="margin-top:13px;">
                           <li class="active">
-                            <a class="page-scroll" href="#services"><i class="fa fa-user" style="font-size: 20px;vertical-align: middle;padding-right: 8px;"></i> ¿No estás registrado? Regístrate</a>
+                            <a class="page-scroll" href="../login"><i class="fa fa-user" style="font-size: 20px;vertical-align: middle;padding-right: 8px;"></i> ¿Ya tienes cuenta? Entra</a>
                           </li>
                       </ul>
                     </div>
                 </div>
         </div>
 
-        <section id="cont-login">
-          <div class="container cont-quie" >
+        <section id="registro">
+          <div class="container">
             <div class="row">
               <div class="cont-iconregister">
-                <img src="../assets/img/key.png" alt="Registro empresas" />
-                <h3>Ingresa a tu cuenta</h3>
+                <img src="../assets/img/company.png" alt="Registro empresas" />
+                <h3>Registra tu Empresa</h3>
               </div>
             </div>
             <div class="row" style="padding:30px 0px 0px;">
@@ -55,20 +55,51 @@
                 <div class="cont-form">
                   <form class="form-registro" action="index.html" method="post">
                     <div class="row">
-                      <div class="col-md-12">
-                          <input type="email" class="form-control" id="email-log" name="email-log" placeholder="Email" value="">
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Empresa" value="">
+
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                          <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" value="">
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="nit" name="nit" placeholder="NIT" value="">
 
                       </div>
                     </div>
                     <div class="row">
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="pais" name="pais" placeholder="País" value="">
+
+                      </div>
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad" value="">
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" value="">
+
+                      </div>
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" id="celular" name="celular" placeholder="Celular" value="">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                          <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" value="">
+
+                      </div>
+                      <div class="col-md-6">
+                          <input type="password" class="form-control" id="confcontrasena" name="confcontrasena" placeholder="Confirma tu contraseña" value="">
+                      </div>
+                    </div>
+                    <div class="row">
                       <div class="col-md-12 cont-btn">
-                        <input type="button" class="btn btn-registrate" value="Ingresar" id="ingresar-submit-btn" style="display:none;" >
-                        <a class="btn btn-registrate" href="../usuario">Ingresar</a>
+                        <input type="button" class="btn btn-registrate" value="Regístrate" id="registrate-submit-btn" onclick="User.register()">
                       </div>
                     </div>
                   </form>
@@ -78,8 +109,8 @@
           </div>
         </section>
 
-    <footer class="section sfooter fo-log" >
-      <div class="container cont-quie">
+    <footer class="section sfooter">
+      <div class="container">
         <div class="row">
           <div class="col-md-12" style="text-align: center;padding-top: 24px;">
             <p>© 2016 CO-NNET</p>

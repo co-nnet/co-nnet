@@ -20,7 +20,7 @@
      <link href="assets/css/inicio.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="navbar navbar-fixed-top" role="navigation" style="background-color:#38A9BF;padding-bottom: 14px;z-index:2">
+        <div class="navbar navbar-fixed-top" role="navigation" style="background-color:transparent;padding-bottom: 14px;z-index:2">
 
 
                 <div class="container">
@@ -31,22 +31,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <img src="assets/img/logo-connet.png" class="img-responsive" style="width:78px;">
+                      <a href="./"  ><img src="assets/img/logo-connet.png" class="img-responsive" style="width:78px;"></a>
 
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                       <ul class="nav navbar-nav navbar-right menu" style="margin-top:12px;">
-                          <li class="active">
-                              <a class="page-scroll" href="#services">Registrate</a>
-                          </li>
                           <li>
-                              <a class="page-scroll" href="#description">Conócenos</a>
-                          </li>
-                          <li>
-                              <a class="page-scroll" href="#services-ppal">Servicios</a>
-                          </li>
-                          <li>
-                              <a class="page-scroll" href="#clientes">Clientes</a>
+                            <a class="page-scroll" href="../login"><i class="fa fa-user" style="font-size: 20px;vertical-align: middle;padding-right: 8px;"></i> ¿Ya tienes cuenta? Entra</a>
                           </li>
                       </ul>
                     </div>
@@ -54,11 +45,32 @@
 
         </div>
         <div id="slide" class="section" >
-          <p>Tú lo necesitas,<br> <span style="font-weight: 600;">nosotros lo solucionamos.</span></p>
+          <div class="cover">
+
+          </div>
+          <div class="video-intro">
+            <video id="sampleMovie" width="100%" preload="" autoplay="autoplay" loop="loop">
+            	<source src="./assets/img/office.mp4" />
+            </video>
+          </div>
+          <img src="./assets/img/logo-slide.png" alt="CO-NNET" />
+          <p >Tú lo necesitas,<br> <span>nosotros lo solucionamos.</span></p>
         </div>
+
+        <section id="description">
+            <div class="container cont-quie">
+              <div class="row">
+                <div class="col-md-12 cont-description">
+                  <h3 style="margin-bottom:30px;">Conoce nuestra iniciativa</h3>
+                  <p>
+                    Co.nnet es una plataforma digital que proporciona soluciones efectivas a través del uso de la tecnología: Conectamos técnicos profesionales en mantenimiento y reparación de lavadoras con sus solicitudes inmediatas, utilizando un servicio de geo-referenciación que agiliza los procesos acompañados de confianza, garantía , respaldo y calidad. A su vez, posee una amplia base de datos de compañías legalmente constituidas dentro del sector, que aumentan su número de usuarios, reciben capacitaciones para el perfeccionamiento de su servicio y obtienen un informe mensual para la implementación de sus estrategias internas.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
         <section id="services">
-        <div class="container" style="width:100%; padding-left: 7px;
-    padding-right: 8px;">
+        <div class="container cont-quie" >
           <div class="row">
             <div class="col-md-6 cont-perfiles cont-regprov" >
               <div class="cont-info">
@@ -80,21 +92,10 @@
           </div>
         </div>
       </section>
-      <section id="description">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 cont-description">
-                <h3 style="margin-bottom:30px;">Conoce nuestra iniciativa</h3>
-                <p>
-                  Co.nnet es una plataforma digital que proporciona soluciones efectivas a través del uso de la tecnología: Conectamos técnicos profesionales en mantenimiento y reparación de lavadoras con sus solicitudes inmediatas, utilizando un servicio de geo-referenciación que agiliza los procesos acompañados de confianza, garantía , respaldo y calidad. A su vez, posee una amplia base de datos de compañías legalmente constituidas dentro del sector, que aumentan su número de usuarios, reciben capacitaciones para el perfeccionamiento de su servicio y obtienen un informe mensual para la implementación de sus estrategias internas.
-                </p>
-              </div>
-            </div>
-          </div>
-      </section>
+
       <section>
         <div id="services-ppal" class="">
-          <div class="container" style="padding: 60px 40px 40px;">
+          <div class="container cont-quie" >
             <div class="row fl-servicios">
               <div class="col-md-4 cont-img-servicio">
                 <div class="card">
@@ -132,7 +133,7 @@
     </section>
 
     <section id="clientes" style="background-color:#133440;">
-      <div class="container">
+      <div class="container cont-quie">
         <div class="row">
           <div class="col-md-2 col-md-offset-1">
             <img src="./assets/img/electrolux.png" alt="" />
@@ -154,7 +155,7 @@
     </section>
 
     <footer class="section sfooter">
-      <div class="container">
+      <div class="container cont-quie">
         <div class="row">
           <div class="col-md-12" style="text-align: center;padding-top: 24px;">
             <p>© 2016 CO-NNET</p>
