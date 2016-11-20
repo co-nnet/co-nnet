@@ -8611,6 +8611,52 @@ font-size: 22px;
   font-weight: 500;
 }
 
+#registro{
+  padding-top: 120px;
+  padding-bottom: 31px;
+}
+
+#cont-login{
+  padding-top: 180px;
+  padding-bottom: 61px;
+}
+
+.btn-registrate{
+  background-color: #38a9bf;
+}
+
+.btn-registrate:hover, .btn-registrate:active, .btn-registrate:visited, .btn-registrate:focus{
+  color: white !important;
+  background-color: rgb(12, 129, 152);
+}
+
+.cont-btn{
+  text-align: center;
+  padding: 30px;
+}
+
+.cont-iconregister{
+  text-align: center;
+}
+
+.cont-iconregister img{
+  width: 100px;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email],
+input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local],
+input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  font-size: medium;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #38a9bf !important;
+    box-shadow: 0 1px 0 0 #38a9bf !important;
+}
 /*.owl-carousel .owl-item {
     float: left;
 

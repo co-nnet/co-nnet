@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>CO-NNET - Login</title>
+     <meta name="description" content="Tú lo necesitas, nosotros lo solucionamos" >
+     <meta name="keywords" content="lavadora, servicio, empresas, reaparación">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+     <script
+       src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+       crossorigin="anonymous"></script>
+     <script src="../assets/js/scrolling-nav.js"></script>
+     <link href="../assets/css/inicio.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top" role="navigation" style="background-color:#38A9BF;padding-bottom: 14px;z-index:2">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <img src="../assets/img/logo-connet.png" class="img-responsive" style="width:78px;">
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                      <ul class="nav navbar-nav navbar-right menu" style="margin-top:13px;">
+                          <li class="active">
+                            <a class="page-scroll" href="#services"><i class="fa fa-user" style="font-size: 20px;vertical-align: middle;padding-right: 8px;"></i> ¿No estás registrado? Regístrate</a>
+                          </li>
+                      </ul>
+                    </div>
+                </div>
+        </div>
+
+        <section id="cont-login">
+          <div class="container" >
+            <div class="row">
+              <div class="cont-iconregister">
+                <img src="../assets/img/key.png" alt="Registro empresas" />
+                <h3>Ingresa a tu cuenta</h3>
+              </div>
+            </div>
+            <div class="row" style="padding:30px 0px 0px;">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="cont-form">
+                  <form class="form-registro" action="index.html" method="post">
+                    <div class="row">
+                      <div class="col-md-12">
+                          <input type="email" class="form-control" id="email-log" name="email-log" placeholder="Email" value="">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                          <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" value="">
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 cont-btn">
+                        <input type="button" class="btn btn-registrate" value="Ingresar" id="ingresar-submit-btn" onclick="User.ingresar()">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    <footer class="section sfooter" style="position: absolute;bottom: 0px;width: 100%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" style="text-align: center;padding-top: 24px;">
+            <p>© 2016 CO-NNET</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
